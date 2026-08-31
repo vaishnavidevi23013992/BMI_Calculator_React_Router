@@ -1,0 +1,146 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: white;
+}
+
+.page {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+
+  background: linear-gradient(
+    135deg,
+    #141e30,
+    #243b55
+  );
+}
+
+.card {
+  width: 100%;
+  max-width: 400px;
+  padding: 40px;
+
+  text-align: center;
+
+  background: rgba(255, 255, 255, 0.1);
+
+  border: 1px solid rgba(255, 255, 255, 0.2);
+
+  border-radius: 25px;
+
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.4);
+}
+
+.icon {
+  font-size: 55px;
+}
+
+h1 {
+  font-size: 36px;
+  margin: 15px 0;
+}
+
+p {
+  color: #dbeafe;
+}
+
+form {
+  margin-top: 25px;
+}
+
+label {
+  display: block;
+  text-align: left;
+  margin: 15px 0 7px;
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+  padding: 14px;
+
+  border: none;
+  border-radius: 12px;
+
+  outline: none;
+
+  font-size: 16px;
+}
+
+button {
+  width: 100%;
+
+  padding: 14px;
+
+  margin-top: 20px;
+
+  border: none;
+  border-radius: 12px;
+
+  background: linear-gradient(
+    135deg,
+    #8b5cf6,
+    #ec4899
+  );
+
+  color: white;
+
+  font-size: 16px;
+  font-weight: bold;
+
+  cursor: pointer;
+}
+
+button:hover {
+  transform: translateY(-2px);
+}
+
+.error {
+  margin-top: 15px;
+  padding: 10px;
+
+  background: rgba(255, 0, 0, 0.2);
+
+  border-radius: 10px;
+
+  color: #fecaca;
+}
+
+.bmi {
+  font-size: 70px;
+  font-weight: bold;
+
+  margin: 20px 0;
+
+  color: #c084fc;
+}
+
+.details {
+  margin: 20px 0;
+  padding: 10px;
+
+  background: rgba(255, 255, 255, 0.08);
+
+  border-radius: 12px;
+}
+
+.home-btn {
+  background: #475569;
+}
+
+@media (max-width: 500px) {
+  .card {
+    padding: 30px 20px;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+}
